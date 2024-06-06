@@ -47,7 +47,11 @@ function createCard(book) {
   itemInfoPages.classList.add("pages-text");
   itemInfoRead.classList.add("read-btn");
   itemInfoPages.textContent = book.pages + " pages";
-  itemInfoRead.textContent = true ? "Read" : "Not Read";
+  itemInfoRead.textContent = book.read ? "Read" : "Not Read";
+
+  if (book.read) {
+    itemInfoRead.style.backgroundColor = "#2ecc71";
+  }
 
   itemInfoSection.appendChild(itemInfoPages);
   itemInfoSection.appendChild(itemInfoRead);
@@ -68,9 +72,10 @@ form.addEventListener("submit", (event) => {
   var title = document.getElementById("title").value;
   var author = document.getElementById("author").value;
   var pages = document.getElementById("pages").value;
-  var read = document.getElementById("read").value;
+  var read = document.getElementById("read").checked;
 
   let b = new Book(title, author, pages, read);
+  form.reset();
 
   createCard(b);
   modalDialog.close();
