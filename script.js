@@ -48,10 +48,19 @@ function createCard(book) {
   itemInfoRead.classList.add("read-btn");
   itemInfoPages.textContent = book.pages + " pages";
   itemInfoRead.textContent = book.read ? "Read" : "Not Read";
-
   if (book.read) {
     itemInfoRead.style.backgroundColor = "#2ecc71";
   }
+
+  itemInfoRead.addEventListener("click", () => {
+    if (!book.read) {
+      itemInfoRead.style.backgroundColor = "#2ecc71";
+    } else {
+      itemInfoRead.style.backgroundColor = "#e74c3c";
+    }
+    book.read = !book.read;
+    itemInfoRead.textContent = book.read ? "Read" : "Not Read";
+  });
 
   itemInfoSection.appendChild(itemInfoPages);
   itemInfoSection.appendChild(itemInfoRead);
