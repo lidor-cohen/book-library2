@@ -1,0 +1,158 @@
+[
+  {
+    "name": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "pages": 281,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/91Ae%2BO6qK%2BL.jpg"
+  },
+  {
+    "name": "1984",
+    "author": "George Orwell",
+    "pages": 328,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81y2p3lLQtL.jpg"
+  },
+  {
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "pages": 180,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81uSuE5UUrL.jpg"
+  },
+  {
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "pages": 279,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81QfU6dI2NL.jpg"
+  },
+  {
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "pages": 309,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/91VyNcNKunL.jpg"
+  },
+  {
+    "name": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "pages": 277,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81IsKz2m8jL.jpg"
+  },
+  {
+    "name": "Animal Farm",
+    "author": "George Orwell",
+    "pages": 141,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81z0JDwUqgL.jpg"
+  },
+  {
+    "name": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "pages": 310,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81WvKN0iJfL.jpg"
+  },
+  {
+    "name": "Brave New World",
+    "author": "Aldous Huxley",
+    "pages": 288,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51P6yLr6crL.jpg"
+  },
+  {
+    "name": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "pages": 1178,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/91pKojF5Y-L.jpg"
+  },
+  {
+    "name": "The Chronicles of Narnia",
+    "author": "C.S. Lewis",
+    "pages": 766,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81x6a1ekPFL.jpg"
+  },
+  {
+    "name": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "pages": 96,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51exzXkIizL.jpg"
+  },
+  {
+    "name": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "pages": 227,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81bbYcZQ8-L.jpg"
+  },
+  {
+    "name": "Gone with the Wind",
+    "author": "Margaret Mitchell",
+    "pages": 960,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/71ujCQVZMwL.jpg"
+  },
+  {
+    "name": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "pages": 454,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81ZBd4iNsEL.jpg"
+  },
+  {
+    "name": "The Alchemist",
+    "author": "Paulo Coelho",
+    "pages": 163,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81aVwOOi%2BQL.jpg"
+  },
+  {
+    "name": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "pages": 272,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/71ZKw-fFeEL.jpg"
+  },
+  {
+    "name": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "pages": 216,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81XHJKjfwlL.jpg"
+  },
+  {
+    "name": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "pages": 342,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81fgfojwEIL.jpg"
+  },
+  {
+    "name": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "pages": 417,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/91mtqfNoW%2BL.jpg"
+  },
+  {
+    "name": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "pages": 796,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81wvFYc6ONL.jpg"
+  },
+  {
+    "name": "Moby-Dick",
+    "author": "Herman Melville",
+    "pages": 654,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/71+e4jl3bHL.jpg"
+  },
+  {
+    "name": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "pages": 532,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81tQyW-BsjL.jpg"
+  },
+  {
+    "name": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "pages": 430,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51igHY7uNxL.jpg"
+  },
+  {
+    "name": "Les Misérables",
+    "author": "Victor Hugo",
+    "pages": 1232,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/71+rqz8sT5L.jpg"
+  },
+  {
+    "name": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "pages": 224,
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/81FGFqJwbhL.jpg"
+  }
+]
