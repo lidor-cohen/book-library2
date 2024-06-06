@@ -1,6 +1,7 @@
 const itemsContainer = document.querySelector(".container");
 const addBookButton = document.querySelector("#add-button");
 const modalDialog = document.querySelector(".modal");
+const form = document.querySelector(".dialog-form");
 
 const myLibrary = [];
 
@@ -61,7 +62,16 @@ addBookButton.addEventListener("click", () => {
   modalDialog.showModal();
 });
 
-// let b = new Book("Harry Potter", "J.K. Rowling", 920, true);
-// addBookToLibrary(b);
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
 
-// createCard(myLibrary[0]);
+  var title = document.getElementById("title").value;
+  var author = document.getElementById("author").value;
+  var pages = document.getElementById("pages").value;
+  var read = document.getElementById("read").value;
+
+  let b = new Book(title, author, pages, read);
+
+  createCard(b);
+  modalDialog.close();
+});
