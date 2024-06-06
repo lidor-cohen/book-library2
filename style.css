@@ -115,4 +115,15 @@ hr {
   display: flex;
   justify-content: space-between;
   font-weight: 300;
+  align-items: center;
+}
+
+.read-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  background-color: var(--error-color);
+  color: white;
+  border: none;
+  outline: none;
 }
