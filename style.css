@@ -130,3 +130,40 @@ hr {
   border: none;
   outline: none;
 }
+
+.modal {
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.modal h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dialog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 2px;
+}
+
+.form-sec {
+  display: flex;
+  gap: 1em;
+}
+
+.form-sec * {
+  flex: 1;
+}
+
+#form-submit-btn {
+  margin-top: 15px;
+}

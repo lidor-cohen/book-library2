@@ -46,5 +46,35 @@
         </div>
       </div>
     </main>
+
+    <dialog class="modal" id="add-book-modal">
+      <h2>Add a Book</h2>
+
+      <form class="dialog-form" action="#">
+        <div class="form-sec form-title">
+          <label for="title">Book Title:</label>
+          <input type="text" id="title" />
+        </div>
+
+        <div class="form-sec form-author">
+          <label for="author">Book Author:</label>
+          <input type="text" id="author" />
+        </div>
+
+        <div class="form-sec form-pages">
+          <label for="pages">Number of Pages:</label>
+          <input type="number" id="pages" />
+        </div>
+
+        <div class="form-sec form-read">
+          <label for="read">Have you read it?</label>
+          <input type="checkbox" id="read" />
+        </div>
+
+        <button class="primary-button" id="form-submit-btn" type="submit">
+          Add Book
+        </button>
+      </form>
+    </dialog>
   </body>
 </html>

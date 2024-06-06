@@ -1,4 +1,6 @@
 const itemsContainer = document.querySelector(".container");
+const addBookButton = document.querySelector("#add-button");
+const modalDialog = document.querySelector(".modal");
 
 const myLibrary = [];
 
@@ -55,7 +57,11 @@ function createCard(book) {
   itemsContainer.appendChild(card);
 }
 
-let b = new Book("Harry Potter", "J.K. Rowling", 920, true);
-addBookToLibrary(b);
+addBookButton.addEventListener("click", () => {
+  modalDialog.showModal();
+});
 
-createCard(myLibrary[0]);
+// let b = new Book("Harry Potter", "J.K. Rowling", 920, true);
+// addBookToLibrary(b);
+
+// createCard(myLibrary[0]);
