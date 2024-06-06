@@ -56,8 +56,21 @@ function createCard(book) {
   itemInfoSection.appendChild(itemInfoPages);
   itemInfoSection.appendChild(itemInfoRead);
 
+  // Delete Button
+  let removeCardButton = document.createElement("button");
+  removeCardButton.classList.add("primary-button");
+  removeCardButton.style.backgroundColor = "transparent";
+  removeCardButton.style.border = "2px solid red";
+  removeCardButton.textContent = "Remove Book";
+  removeCardButton.style.marginTop = "10px";
+
+  removeCardButton.addEventListener("click", () => {
+    removeCardButton.parentElement.remove();
+  });
+
   card.appendChild(itemHeader);
   card.appendChild(itemInfoSection);
+  card.appendChild(removeCardButton);
 
   itemsContainer.appendChild(card);
 }
